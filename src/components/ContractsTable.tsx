@@ -65,22 +65,22 @@ const ContractsTable: React.FC<ContractsTableProps> = ({ searchTerm }) => {
         <thead className="bg-gray-50">
           <tr>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Contract ID
+              ID
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Code
+              Código
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Status
+              Estado
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Trade Date
+              Fecha
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
               Counterparty
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Actions
+              Acciones
             </th>
           </tr>
         </thead>
@@ -107,7 +107,7 @@ const ContractsTable: React.FC<ContractsTableProps> = ({ searchTerm }) => {
                   className="px-2 py-2 text-white bg-gray-900 hover:bg-gray-700 font-medium rounded-md"
                   onClick={() => handleViewContract(contract.id)}
                 >
-                  View Contract
+                  Ver detalles
                 </button>
               </td>
             </tr>

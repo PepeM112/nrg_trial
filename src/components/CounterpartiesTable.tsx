@@ -60,10 +60,10 @@ const CounterpartiesTable: React.FC<CounterpartiesTableProps> = ({ searchTerm })
               ID
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Name
+              Nombre
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              Type
+              Tipo
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
               Actions
@@ -87,7 +87,7 @@ const CounterpartiesTable: React.FC<CounterpartiesTableProps> = ({ searchTerm })
                   className="px-2 py-2 text-white bg-gray-900 hover:bg-gray-700 font-medium rounded-md"
                   onClick={() => handleViewCounterparty(counterparty.id)}
                 >
-                  View Details
+                  Ver detalles
                 </button>
               </td>
             </tr>
